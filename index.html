@@ -61,6 +61,91 @@
         </div>
     </nav>
 
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-20 items-start">
+            <div class="relative">
+                <h2 class="text-4xl font-bold text-white mb-8 mono uppercase tracking-widest">Về bản thân <span class="text-blue-500">mình</span></h2>
+                <div class="space-y-6 text-slate-400 text-lg leading-relaxed">
+                    <p class="border-l-2 border-slate-800 pl-6 italic">
+                        "Khi ta loại bỏ những điều không thể, thứ còn lại dù vô lý đến đâu, đó chính là sự thật." – Triết lý này định hình mọi project mình thực hiện.
+                    </p>
+                    <p>
+                        Hiện mình đang là sinh viên ngành CNTT với mức GPA <span class="text-white font-bold">2.9/4.0</span>. Mình không coi dữ liệu là những hàng Excel vô hồn, mà là một hiện trường cần được giải mã.
+                    </p>
+                    <p>
+                        Mục tiêu của mình là kết nối các manh mối rời rạc để tạo nên một bức tranh hoàn chỉnh thông qua các công cụ hiện đại như SQL, Python và Power BI.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i class="fas fa-database text-blue-500 text-3xl mb-4"></i>
+                    <h4 class="text-white font-bold mono text-xs">SQL</h4>
+                    <p class="text-[10px] text-slate-500 mt-2 italic font-bold uppercase">Query & Structure</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i class="fab fa-python text-purple-500 text-3xl mb-4"></i>
+                    <h4 class="text-white font-bold mono text-xs">Python</h4>
+                    <p class="text-[10px] text-slate-500 mt-2 italic font-bold uppercase">Analysis & EDA</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i class="fas fa-chart-line text-green-500 text-3xl mb-4"></i>
+                    <h4 class="text-white font-bold mono text-xs">Power BI</h4>
+                    <p class="text-[10px] text-slate-500 mt-2 italic font-bold uppercase">Visualization</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i class="fas fa-table text-yellow-500 text-3xl mb-4"></i>
+                    <h4 class="text-white font-bold mono text-xs">Excel</h4>
+                    <p class="text-[10px] text-slate-500 mt-2 italic font-bold uppercase">Processing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 px-6 bg-[#030712]/50 border-y border-white/5">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div>
+                    <h2 class="text-4xl font-bold text-white mb-4 mono uppercase tracking-tight">Dự án tiêu biểu</h2>
+                    <p class="text-slate-500 italic mono text-sm">Thực hành tư duy phân tích qua các bộ dữ liệu thực tế.</p>
+                </div>
+                <a href="https://github.com/Huy054" target="_blank" class="text-blue-500 hover:text-blue-400 font-bold text-xs uppercase tracking-[0.2em] mono border-b border-blue-500/30 pb-1">
+                    GitHub Repo <i class="fas fa-external-link-alt ml-2"></i>
+                </a>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="glass-card rounded-2xl p-8 group">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center text-blue-500 mb-6 border border-blue-500/20">
+                        <i class="fas fa-chart-bar text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3 uppercase tracking-tighter">Sales Dashboard</h3>
+                    <p class="text-slate-400 mb-6 line-clamp-2 leading-relaxed">Trực quan hóa doanh thu và hiệu suất bán hàng từ SQL Server, giúp theo dõi các KPI quan trọng trên Power BI.</p>
+                    <div class="flex space-x-3">
+                        <span class="text-[10px] font-bold mono text-blue-400 bg-blue-400/5 px-3 py-1 rounded border border-blue-400/20 uppercase">Power BI</span>
+                        <span class="text-[10px] font-bold mono text-purple-400 bg-purple-400/5 px-3 py-1 rounded border border-purple-400/20 uppercase">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card rounded-2xl p-8 group">
+                    <div class="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center text-purple-500 mb-6 border border-purple-500/20">
+                        <i class="fas fa-users text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3 uppercase tracking-tighter">Customer Behavior</h3>
+                    <p class="text-slate-400 mb-6 line-clamp-2 leading-relaxed">Sử dụng Python để phân tích đặc điểm hành vi khách hàng, hỗ trợ phân loại đối tượng mục tiêu.</p>
+                    <div class="flex space-x-3">
+                        <span class="text-[10px] font-bold mono text-yellow-400 bg-yellow-400/5 px-3 py-1 rounded border border-yellow-400/20 uppercase">Pandas</span>
+                        <span class="text-[10px] font-bold mono text-green-400 bg-green-400/5 px-3 py-1 rounded border border-green-400/20 uppercase">Seaborn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Certificates Section -->
     <section id="certificates" class="py-24 px-6 max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-white text-center mb-16 underline decoration-blue-500 decoration-4 underline-offset-8 uppercase tracking-widest">Chứng chỉ chuyên môn</h2>
@@ -76,7 +161,7 @@
                 <a href="certificates/CertificateOfCompletion_Career Essentials in Data Analysis by Microsoft and LinkedIn.pdf" target="_blank" class="inline-block text-[10px] font-bold mono text-blue-400 hover:text-white transition-all py-3 border border-blue-400/20 rounded text-center hover:bg-blue-600/10 uppercase">Xem chứng chỉ</a>
             </div>
 
-            <!-- 2. Learning Data Analytics Part 2 (ĐÃ FIX LINK) -->
+            <!-- 2. Learning Data Analytics Part 2 -->
             <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
                 <div>
                     <i class="fas fa-certificate text-blue-500 mb-4 text-2xl"></i>
@@ -86,7 +171,7 @@
                 <a href="certificates/CertificateOfCompletion_Learning Data Analytics Part 2 Extending and Applying Core Knowledge.pdf" target="_blank" class="inline-block text-[10px] font-bold mono text-blue-400 hover:text-white transition-all py-3 border border-blue-400/20 rounded text-center hover:bg-blue-600/10 uppercase">Xem chứng chỉ</a>
             </div>
 
-            <!-- 3. Learning Data Analytics: 1 Foundations (ĐÃ FIX LINK) -->
+            <!-- 3. Learning Data Analytics: 1 Foundations -->
             <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
                 <div>
                     <i class="fas fa-certificate text-blue-500 mb-4 text-2xl"></i>
@@ -96,7 +181,7 @@
                 <a href="certificates/CertificateOfCompletion_Learning Data Analytics 1 Foundations.pdf" target="_blank" class="inline-block text-[10px] font-bold mono text-blue-400 hover:text-white transition-all py-3 border border-blue-400/20 rounded text-center hover:bg-blue-600/10 uppercase">Xem chứng chỉ</a>
             </div>
 
-            <!-- 4. Data Visualization (MỚI THÊM) -->
+            <!-- 4. Data Visualization -->
             <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
                 <div>
                     <i class="fas fa-certificate text-blue-500 mb-4 text-2xl"></i>
@@ -145,15 +230,63 @@
                 </div>
                 <a href="certificates/CertificateOfCompletion_Data Analytics for Business Professionals.pdf" target="_blank" class="inline-block text-[10px] font-bold mono text-blue-400 hover:text-white transition-all py-3 border border-blue-400/20 rounded text-center hover:bg-blue-600/10 uppercase">Xem chứng chỉ</a>
             </div>
+        </div>
+    </section>
 
-            <div class="glass-card p-6 rounded-xl flex items-center justify-center text-slate-600 text-xs italic border-dashed border-2 opacity-50">
-                Scanning for more evidence...
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 bg-[#020617]">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-4xl font-bold text-white mb-8 mono uppercase tracking-widest">Liên hệ</h2>
+                    <p class="text-slate-400 mb-12 text-lg italic leading-relaxed">
+                        Bạn nắm giữ những bí ẩn cần được giải mã? Đừng để dữ liệu của bạn trở thành những con số vô hồn. Hãy gửi những con số đó đến, mình sẽ giúp bạn tìm ra sự thật.
+                    </p>
+                    <div class="space-y-6">
+                        <a href="mailto:huynguyen54140@gmail.com" class="group flex items-center text-white hover:text-blue-400 transition-colors">
+                            <span class="w-12 h-12 glass-card rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-600 transition-all">
+                                <i class="fas fa-at text-blue-500 group-hover:text-white"></i>
+                            </span>
+                            <span class="text-sm font-bold tracking-widest uppercase italic">huynguyen54140@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/huy-nguyễn-4671283b4/" target="_blank" class="group flex items-center text-white hover:text-blue-400 transition-colors">
+                            <span class="w-12 h-12 glass-card rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-600 transition-all">
+                                <i class="fab fa-linkedin-in text-blue-500 group-hover:text-white"></i>
+                            </span>
+                            <span class="text-sm font-bold tracking-widest uppercase italic">LinkedIn Profile</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Jotform Box Link -->
+                <div class="glass-card p-10 rounded-2xl shadow-2xl flex flex-col justify-center items-center text-center border-t-4 border-t-blue-500">
+                    <div class="w-20 h-20 bg-blue-500/10 rounded-full flex items-center justify-center text-blue-500 mb-6">
+                        <i class="fas fa-paper-plane text-3xl ml-[-5px]"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 mono uppercase tracking-widest">Hãy Giữ Liên Lạc!</h3>
+                    <p class="text-sm text-slate-400 mb-10 leading-relaxed max-w-sm italic">
+                        Tôi luôn sẵn sàng cho những cơ hội nghề nghiệp mới. Dù bạn có câu hỏi hay một dự án thú vị, tôi sẽ cố gắng phản hồi bạn sớm nhất có thể.
+                    </p>
+                    <a href="https://form.jotform.com/260704514375051" target="_blank" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-5 rounded-lg transition-all shadow-lg shadow-blue-900/40 flex items-center justify-center space-x-3 uppercase text-xs tracking-widest">
+                        <span>Gửi Tin Nhắn</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- (Các section khác: About, Projects, Contact, Footer giữ nguyên như cũ) -->
-    <!-- Chú ý: Đảm bảo bạn copy lại các phần đó từ bản trước nếu cần -->
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-white/5 bg-[#020617]">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-[10px] text-slate-600 mono uppercase tracking-widest">
+            <p>© 2026 Nguyễn Văn Đoàn Bảo Huy. Data Analyst Portfolio.</p>
+            <div class="mt-4 md:mt-0 flex space-x-8">
+                <span>Keep exploring the truth</span>
+                <span class="text-blue-500">//</span>
+                <span>Huy Nguyen</span>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
