@@ -5,8 +5,6 @@
 
 Chào mừng bạn đến với không gian lưu trữ các dự án phân tích dữ liệu của mình. Mình không coi dữ liệu là những hàng Excel vô hồn, mà là một hiện trường cần được giải mã để tìm ra những "Insights" giá trị, hỗ trợ doanh nghiệp ra quyết định tối ưu.
 
-🌐 XEM TRANG WEB PORTFOLIO TẠI ĐÂY
-
 👨‍💻 Về bản thân mình
 
 Định hướng: Data Analyst Intern / Fresher
