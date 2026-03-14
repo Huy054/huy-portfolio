@@ -71,8 +71,7 @@ Bạn nắm giữ những bí ẩn cần được giải mã? Hãy gửi những
 
 📧 Email: huynguyen54140@gmail.com
 
-💼 LinkedIn: Huy Nguyễn
+💼 LinkedIn: [Huy Nguyễn](https://www.linkedin.com/in/huy-nguy%E1%BB%85n-4671283b4/)
 
-📝 Gửi yêu cầu an toàn: Jotform Liên hệ
 
 Cảm ơn bạn đã ghé thăm Portfolio của mình. Keep exploring the truth! 🚀
