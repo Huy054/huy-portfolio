@@ -1,7 +1,8 @@
-🔍 Nguyễn Văn Đoàn Bảo Huy | Data Analyst Portfolio
+<div align="center">
+<h1>🔍 Nguyễn Văn Đoàn Bảo Huy | Data Analyst Portfolio</h1>
+</div>
 
-"Khi ta loại bỏ những điều không thể, thứ còn lại dù vô lý đến đâu, đó chính là sự thật." >
-— [DATA ANALYST] Giải mã những câu chuyện ẩn giấu đằng sau những con số rời rạc.
+"Khi ta loại bỏ những điều không thể, thứ còn lại dù vô lý đến đâu, đó chính là sự thật."
 
 Chào mừng bạn đến với không gian lưu trữ các dự án phân tích dữ liệu của mình. Mình không coi dữ liệu là những hàng Excel vô hồn, mà là một hiện trường cần được giải mã để tìm ra những "Insights" giá trị, hỗ trợ doanh nghiệp ra quyết định tối ưu.
 
@@ -29,17 +30,23 @@ Soft Skills: Data Storytelling, Business Analytics, Data Ethics.
 
 Dưới đây là các dự án thực hành tư duy phân tích qua các bộ dữ liệu thực tế:
 
-1. 📊 Sales Performance Dashboard
+1. 🍕 Pizza Place Sales Analysis
 
-Công cụ: SQL, Power BI
+Công cụ: SQL Server, Power BI, DAX
 
-Mô tả: Trích xuất, làm sạch dữ liệu từ SQL Server và trực quan hóa doanh thu, hiệu suất bán hàng. Xây dựng Dashboard tương tác giúp theo dõi các KPI quan trọng, từ đó đưa ra đề xuất tối ưu hóa doanh thu theo từng khu vực và khoảng thời gian.
+Mô tả: Thực hiện truy vấn và trích xuất dữ liệu (ETL) hơn 48.000 bản ghi bằng SQL Server. Trực quan hóa bằng Power BI để phân tích khung giờ cao điểm, hiệu suất bán hàng và đánh giá mức độ ưa chuộng của từng loại sản phẩm nhằm tối ưu hóa thực đơn.
 
 2. 👥 Customer Behavior Analysis
 
-Công cụ: Python (Pandas, Seaborn)
+Công cụ: Python (Pandas, Seaborn, Matplotlib)
 
-Mô tả: Sử dụng ngôn ngữ lập trình Python để thực hiện Khai phá dữ liệu (EDA - Exploratory Data Analysis) trên tập dữ liệu khách hàng. Phân tích đặc điểm hành vi, sở thích và phân loại đối tượng mục tiêu, hỗ trợ cho các chiến dịch Marketing định hướng.
+Mô tả: Sử dụng ngôn ngữ lập trình Python để thực hiện Khai phá dữ liệu (EDA - Exploratory Data Analysis) trên tập dữ liệu khách hàng. Phân tích đặc điểm hành vi, xu hướng mua sắm và phân loại nhóm khách hàng tiềm năng, hỗ trợ đắc lực cho các chiến dịch Marketing định hướng.
+
+3. 🛒 Superstore Data Analysis
+
+Công cụ: Python (Pandas), Power BI, DAX
+
+Mô tả: Ứng dụng Python để thực hiện quy trình ETL trên bộ dữ liệu hơn 9.000 giao dịch bán lẻ. Xây dựng hệ thống Dashboard tương tác bằng Power BI nhằm phân tích tính mùa vụ và chẩn đoán "nghịch lý doanh thu - lợi nhuận", từ đó cung cấp Insights hỗ trợ tối ưu hóa chiến lược giá.
 
 (Xem chi tiết source code và báo cáo tại các repository khác trên trang GitHub của mình).
 
@@ -71,7 +78,8 @@ Bạn nắm giữ những bí ẩn cần được giải mã? Hãy gửi những
 
 📧 Email: huynguyen54140@gmail.com
 
-💼 LinkedIn: [Huy Nguyễn](https://www.linkedin.com/in/huy-nguy%E1%BB%85n-4671283b4/)
+💼 LinkedIn: Huy Nguyễn
 
-
-Cảm ơn bạn đã ghé thăm Portfolio của mình. Keep exploring the truth! 🚀
+<div align="center">
+<i>Cảm ơn bạn đã ghé thăm Portfolio của mình. <b>Keep exploring the truth! 🚀</b></i>
+</div>
