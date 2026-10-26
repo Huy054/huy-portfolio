@@ -1,85 +1,108 @@
 <div align="center">
-<h1>🔍 Nguyễn Văn Đoàn Bảo Huy | Data Analyst Portfolio</h1>
+
+# 🔍 Nguyễn Văn Đoàn Bảo Huy
+
+### Data Analyst Portfolio · SQL · Python · Power BI · Excel
+
+*“Khi ta loại bỏ những điều không thể, thứ còn lại dù vô lý đến đâu, đó chính là sự thật.”*
+
+**[🌐 Xem Portfolio Website](https://huy054.github.io/huy-portfolio/)** · **[💻 GitHub](https://github.com/Huy054)** · **[💼 LinkedIn](https://www.linkedin.com/in/huy-4671283b4/)**
+
 </div>
 
-"Khi ta loại bỏ những điều không thể, thứ còn lại dù vô lý đến đâu, đó chính là sự thật."
+---
 
-Chào mừng bạn đến với không gian lưu trữ các dự án phân tích dữ liệu của mình. Mình không coi dữ liệu là những hàng Excel vô hồn, mà là một hiện trường cần được giải mã để tìm ra những "Insights" giá trị, hỗ trợ doanh nghiệp ra quyết định tối ưu.
+## 👨‍💻 Giới thiệu
 
-👨‍💻 Về bản thân mình
+Mình là sinh viên **Công nghệ thông tin**, đang định hướng trở thành **Data Analyst Intern / Fresher**. Mình quan tâm đến việc biến dữ liệu thô thành thông tin đáng tin cậy, trình bày kết quả dễ hiểu và đề xuất hướng ra quyết định dựa trên bằng chứng.
 
-Định hướng: Data Analyst Intern / Fresher
+Portfolio này tổng hợp ba dự án thực hành theo ba hướng riêng biệt: **phân tích doanh thu bằng SQL**, **phân tích khả năng sinh lời bằng Python và Power BI**, và **phân khúc khách hàng bằng Machine Learning**. Mỗi dự án đều có mã nguồn, kết quả phân tích và tài liệu giải thích bằng tiếng Việt.
 
-Chuyên ngành: Công nghệ thông tin (GPA: 2.9/4.0)
+## 🛠️ Kỹ năng và công cụ
 
-Triết lý làm việc: Kết nối các manh mối rời rạc để tạo nên một bức tranh hoàn chỉnh thông qua các công cụ hiện đại.
+| Nhóm kỹ năng | Công cụ và nội dung |
+|---|---|
+| **SQL & Database** | SQL Server, MySQL, JOIN, CTE, Window Functions, VIEW, kiểm tra chất lượng dữ liệu |
+| **Python & Data Analysis** | Pandas, NumPy, Matplotlib, làm sạch dữ liệu, EDA, thống kê mô tả |
+| **Business Intelligence** | Power BI, Power Query, DAX, KPI, Dashboard, Data Storytelling |
+| **Excel** | PivotTables, xử lý và tổng hợp dữ liệu, Power Query |
+| **Machine Learning** | scikit-learn, K-Means, StandardScaler, Elbow, Silhouette Score |
 
-🛠️ Tech Stack & Kỹ năng
+## 📂 Dự án tiêu biểu
 
-Database & Query: SQL Server, MySQL (CTEs, Window Functions, Joins).
+### 🍕 1. Pizza Place Sales Analysis — SQL Server & Power BI
 
-Programming & EDA: Python (Pandas, NumPy, Matplotlib, Seaborn).
+![Pizza Place — Sales Overview](https://raw.githubusercontent.com/Huy054/Pizza-Place-Sales-Analysis/main/images/sales_overview.png)
 
-Data Visualization: Power BI (DAX, Data Modeling).
+Phân tích hoạt động bán pizza trong **năm 2015** qua dữ liệu đơn hàng, sản phẩm và doanh thu. Dự án sử dụng **T-SQL và SQL VIEW** để kiểm tra, chuẩn hóa dữ liệu giá khi nhập CSV, sau đó trực quan hóa bằng **Power BI** với hai trang *Sales Overview* và *Product Performance*.
 
-Spreadsheet: Advanced Excel, Pivot Tables, Power Query.
+**Kết quả nổi bật:** **21.350 đơn hàng** · **49.574 pizza bán ra** · **817.860,05 USD doanh thu** · **38,31 USD/đơn**. Phân tích thêm khung giờ cao điểm, top sản phẩm, kích cỡ và phân nhóm ABC theo **doanh thu**.
 
-Soft Skills: Data Storytelling, Business Analytics, Data Ethics.
+**Công nghệ:** `SQL Server` · `T-SQL` · `CTE` · `Window Functions` · `SQL VIEW` · `Power BI` · `DAX`
 
-📂 Các dự án tiêu biểu (Featured Projects)
+[**Xem mã nguồn và dashboard Pizza Place**](https://github.com/Huy054/Pizza-Place-Sales-Analysis)
 
-Dưới đây là các dự án thực hành tư duy phân tích qua các bộ dữ liệu thực tế:
+### 🛒 2. Superstore Data Analysis — Python & Power BI
 
-1. 🍕 Pizza Place Sales Analysis
+![Superstore — Business Performance](https://raw.githubusercontent.com/Huy054/superstore-data-analysis/main/images/business_performance.png)
 
-Công cụ: SQL Server, Power BI, DAX
+Kiểm tra và làm sạch dữ liệu bán lẻ bằng **Python/Pandas**, giữ độ chính xác của `Sales` và `Profit`, rồi xây dựng hai trang Power BI: *Business Performance* và *Profitability Deep Dive*. Trọng tâm là **hiệu quả kinh doanh, biên lợi nhuận, giảm giá và các nhóm sản phẩm thua lỗ**.
 
-Mô tả: Thực hiện truy vấn và trích xuất dữ liệu (ETL) hơn 48.000 bản ghi bằng SQL Server. Trực quan hóa bằng Power BI để phân tích khung giờ cao điểm, hiệu suất bán hàng và đánh giá mức độ ưa chuộng của từng loại sản phẩm nhằm tối ưu hóa thực đơn.
+**Kết quả nổi bật:** **9.994 dòng bán hàng** · **5.009 đơn hàng** · **2.297.200,86 USD doanh thu** · **286.397,02 USD lợi nhuận** · **12,47% biên lợi nhuận**. Có **1.871 dòng bán hàng bị lỗ**; nhóm giảm giá trên 40% có biên lợi nhuận tổng hợp **−77,40%** trong bộ dữ liệu mẫu.
 
-2. 👥 Customer Behavior Analysis
+**Công nghệ:** `Python` · `Pandas` · `Data Cleaning` · `Power BI` · `Power Query` · `DAX`
 
-Công cụ: Python (Pandas, Seaborn, Matplotlib)
+[**Xem mã nguồn và dashboard Superstore**](https://github.com/Huy054/superstore-data-analysis)
 
-Mô tả: Sử dụng ngôn ngữ lập trình Python để thực hiện Khai phá dữ liệu (EDA - Exploratory Data Analysis) trên tập dữ liệu khách hàng. Phân tích đặc điểm hành vi, xu hướng mua sắm và phân loại nhóm khách hàng tiềm năng, hỗ trợ đắc lực cho các chiến dịch Marketing định hướng.
+### 👥 3. Customer Behavior Analysis — Python & K-Means
 
-3. 🛒 Superstore Data Analysis
+![Customer Behavior — K-Means Clustering](https://raw.githubusercontent.com/Huy054/customer-behavior-analysis/main/images/customer_clusters.png)
 
-Công cụ: Python (Pandas), Power BI, DAX
+Phân tích dữ liệu mẫu **200 khách hàng**, chuẩn hóa **thu nhập hàng năm** và **điểm chi tiêu**, sau đó sử dụng **K-Means** để khám phá các phân khúc khách hàng. Số cụm được đánh giá bằng **Elbow và Silhouette Score**, kèm thống kê hồ sơ từng cụm và kiểm tra độ nhất quán qua nhiều `random_state`.
 
-Mô tả: Ứng dụng Python để thực hiện quy trình ETL trên bộ dữ liệu hơn 9.000 giao dịch bán lẻ. Xây dựng hệ thống Dashboard tương tác bằng Power BI nhằm phân tích tính mùa vụ và chẩn đoán "nghịch lý doanh thu - lợi nhuận", từ đó cung cấp Insights hỗ trợ tối ưu hóa chiến lược giá.
+**Kết quả nổi bật:** chọn **k = 5** (Silhouette Score **0,5547**, cao nhất trong khoảng `k = 2–10` đã thử); nhóm thu nhập và điểm chi tiêu trung bình có **81 khách hàng (40,5%)**. Các đề xuất marketing được trình bày như **giả thuyết cần kiểm thử**, không khẳng định doanh thu thực tế từ điểm chi tiêu.
 
-(Xem chi tiết source code và báo cáo tại các repository khác trên trang GitHub của mình).
+**Công nghệ:** `Python` · `Pandas` · `scikit-learn` · `StandardScaler` · `K-Means` · `Silhouette` · `Matplotlib`
 
-🎓 Chứng chỉ chuyên môn (Certifications)
+[**Xem notebook, dữ liệu và kết quả Customer Behavior**](https://github.com/Huy054/customer-behavior-analysis)
 
-Mình luôn chủ động nâng cao kiến thức thông qua các khóa học chuyên sâu từ các tổ chức uy tín:
+> **Lưu ý về dữ liệu:** Cả ba dự án sử dụng bộ dữ liệu mẫu phục vụ học tập và thực hành. Các chỉ số không đại diện cho báo cáo tài chính hay hoạt động thực tế của một doanh nghiệp. Với Customer Behavior, **Spending Score không phải doanh thu thực chi**.
 
-Career Essentials in Data Analysis - Microsoft & LinkedIn
+## 🎓 Chứng chỉ chuyên môn
 
-Learning Data Analytics: 1 Foundations - LinkedIn Learning
+Các chứng chỉ có tài liệu PDF đang lưu trong [`certificates/`](certificates/) của Portfolio:
 
-Learning Data Analytics Part 2: Extending and Applying Core Knowledge - LinkedIn Learning
+| Chứng chỉ | Đơn vị | Tài liệu |
+|---|---|---|
+| Career Essentials in Data Analysis | Microsoft & LinkedIn | [Xem PDF](certificates/CertificateOfCompletion_Career%20Essentials%20in%20Data%20Analysis%20by%20Microsoft%20and%20LinkedIn.pdf) |
+| Learning Data Analytics Part 2: Extending and Applying Core Knowledge | LinkedIn Learning | [Xem PDF](certificates/CertificateOfCompletion_Learning%20Data%20Analytics%20Part%202%20Extending%20and%20Applying%20Core%20Knowledge.pdf) |
+| Data Visualization for Data Analysts and Analytics | LinkedIn Learning | [Xem PDF](certificates/CertificateOfCompletion_Data%20Visualization%20for%20Data%20Analysts%20and%20Analytics%20%281%29.pdf) |
+| SQL for Data Analysis | LinkedIn Learning | [Xem PDF](certificates/CertificateOfCompletion_SQL%20for%20Data%20Analysis.pdf) |
+| Learning Power BI Desktop | LinkedIn Learning | [Xem PDF](certificates/CertificateOfCompletion_Learning%20Power%20BI%20Desktop.pdf) |
+| Getting Started with Microsoft Excel | Coursera | [Xem PDF](certificates/LDDEQSWEGV5Z.pdf) |
+| Data Analytics for Business Professionals | LinkedIn Learning | [Xem PDF](certificates/CertificateOfCompletion_Data%20Analytics%20for%20Business%20Professionals.pdf) |
 
-Data Visualization for Data Analysts and Analytics - LinkedIn Learning
+## 🌐 Giới thiệu website Portfolio
 
-SQL for Data Analysis - LinkedIn Learning
+Website **HUY.DATA** được xây dựng bằng **HTML, CSS** và giao diện responsive, triển khai qua **GitHub Pages**. Nội dung website tập trung vào ba dự án, các kỹ năng, chứng chỉ và thông tin liên hệ.
 
-Learning Power BI Desktop - LinkedIn Learning
+```text
+huy-portfolio/
+├── index.html        # Giao diện website
+├── style.css         # Kiểu dáng và responsive
+├── README.md         # Giới thiệu Portfolio và dự án
+└── certificates/     # Chứng chỉ PDF
+```
 
-Getting Started with Microsoft Excel - Coursera
+## 📫 Liên hệ
 
-Data Analytics for Business Professionals - LinkedIn Learning
-
-(Tất cả chứng chỉ đều có bản PDF xác thực trên Website Portfolio).
-
-📫 Hãy Giữ Liên Lạc! (Contact Me)
-
-Bạn nắm giữ những bí ẩn cần được giải mã? Hãy gửi những con số đó đến, mình sẽ giúp bạn tìm ra sự thật.
-
-📧 Email: huynguyen54140@gmail.com
-
-💼 LinkedIn: Huy Nguyễn
+- **Email:** [huynguyen54140@gmail.com](mailto:huynguyen54140@gmail.com)
+- **LinkedIn:** [Huy Nguyễn](https://www.linkedin.com/in/huy-4671283b4/)
+- **GitHub:** [Huy054](https://github.com/Huy054)
+- **Portfolio:** [huy054.github.io/huy-portfolio](https://huy054.github.io/huy-portfolio/)
 
 <div align="center">
-<i>Cảm ơn bạn đã ghé thăm Portfolio của mình. <b>Keep exploring the truth! 🚀</b></i>
+
+*Keep exploring the truth — biến dữ liệu thành những quyết định có cơ sở.*
+
 </div>
